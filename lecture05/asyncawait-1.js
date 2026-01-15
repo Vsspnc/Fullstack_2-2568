@@ -6,8 +6,11 @@ function promiseTimeout(ms) {
 
 async function run() {
     console.log("Starting...");
-    await promiseTimeout(2000);
+    await promiseTimeout(3000);
     console.log("Done!");
 }
 
+console.log("Before run");
 run();
+console.log("After run");
+
